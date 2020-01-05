@@ -6,6 +6,8 @@
 i need to make a contact/booking <table>
   I need to make it look cooler, post a video on the site
  I can do better lol
+do analytics
+ create anchors for tabs to make functional
 </table>
 -->
 
@@ -18,12 +20,13 @@ i need to make a contact/booking <table>
 <nav>
 <ul style="list-style-type:none;">
   <li>
-      <a href="index.html">Home</a>&nbsp;
-      <a href="bio.html">Bio</a>&nbsp;
-    <a href="csPortfolio.html">CS Portfolio</a>&nbsp;
-    <a href="musicPortfolio.html">Music Portfolio</a>&nbsp;
-    <a href="resume.html">Resume</a>&nbsp;
 
+      <a href="index.html">Home</a>&nbsp;
+      <a href="#bio">Bio</a>&nbsp;
+    <a href="#csPortfolio">CS Portfolio</a>&nbsp;
+    <a href="#musicPortfolio">Music Portfolio</a>&nbsp;
+    <a href="#resume">Resume</a>&nbsp;
+    <a href="#booking">Booking</a>&nbsp;
     </li>
   </ul>
 </nav>
@@ -46,6 +49,75 @@ i need to make a contact/booking <table>
 <div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DRJIKmDc790" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<a name="bio">
+    <h3>Biography of Mansa Gory</h3>
+      <p> I am a professional musical artist with over 17 years of experience as a Band Director and a Master of Music Education.  I also am immensely steeped in computer science, but still a hobbyist.
+In my current position as Band Director for the Mount Vernon Performing and Visual Arts Magnet, I conduct the jazz band, concert band, modern band, and percussion ensemble.  I also founded and manage a community youth enrichment musical organization, The I.C.E. Cold Experience, in with children from diverse backgrounds assemble to learn repertoire and compete against collegial groups.  I am highly organized, detail oriented, and efficient as is proven by my ability to manage the number of requirements involved in running multiple successful school music groups. I have solid communication skills and make a concerted effort to reach out to band parents and to keep students volunteers and parents consistently informed of important matters. Most importantly I have a solid understanding of musical concepts and a flair for production
+ My personal philosophy is; “The Arts bring communities together for higher achievement.”
+  </p>
+<a href="index.html"> Back to Top</a>
+
+
+<hr>
+
+<a name="booking">
+
+<!-- email address and contact box -->
+
+<h2>Booking</h2>
+
+<form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<td valign="top">
+  <label for="first_name">First Name *</label>
+</td>
+
+<td valign="top">
+  <input type="text" name="first_name" maxlength="50" size="30">
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+  <label for="email">Email Address *</label>
+</td>
+<td valign="top">
+  <input type="text" name="email" maxlength="80" size="30">
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+  <label for="telephone">Telephone Number</label>
+</td>
+<td valign="top">
+  <input type="text" name="telephone" maxlength="30" size="30">
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+  <label for="comments">Comments *</label>
+</td>
+<td valign="top">
+  <textarea name="comments" maxlength="1000" cols="25" rows="6">
+  </textarea>
+</td>
+
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">  ( <a href="mgory2000@gmail.com">HTML Form</a>  )
+</td>
+</tr>
+</table>
+</form>
+
+<a href="index.html"> Back to Top</a>
+
 
 </body>
 
